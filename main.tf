@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_ecr_repository" "ecr" {
-  name = var.ecr.name
+  name = var.name
 }
