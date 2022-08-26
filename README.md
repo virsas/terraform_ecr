@@ -22,7 +22,7 @@ None
 # Module
 ##############
 module "ecr_example_api" {
-  source = "github.com/virsas/terraform_ecr"
+  source = "git::https://github.com/virsas/terraform_ecr.git?ref=v1.0.0"
   name   = "example_api"
 }
 ```
